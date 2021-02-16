@@ -14,15 +14,21 @@
 				<h2 class="products-title">Login</h2>
 			</div>
 			<div class="col-6"> 
-				<form action="/user/login/" method="POST">
+				<form method="POST" action="/user/login/">
 					<div class="row product-detail">
 						<div class="col-12">
 							<label for="email" class="form-label">Email:</label>
-							<input type="text" id="email" name="email" placeholder="Ej: example@example.com" class="form-input" value="">
+							<% if (typeof old != "undefined") { %>
+								<input type="text" id="email" name="email" placeholder="Ej: example@example.com" class="form-input" value= "<%= old.email ? old.email : '' %>">
+								<p><%= typeof errors == 'undefined' ? '' : typeof errors.email == 'undefined' ? '' : errors.email.msg %></p>
+							<%  } else { %>
+								<input type="text" id="email" name="email" placeholder="Ej: example@example.com" class="form-input" value="">
+							<% } %>
 						</div>
 						<div class="col-12">
-							<label for="price" class="form-label">Contraseña:</label>
+							<label for="password" class="form-label">Contraseña:</label>
 							<input type="password" id="password" name="password" class="form-input">
+							<p><%= typeof errors == 'undefined' ? '' : typeof errors.password == 'undefined' ? '' : errors.email.msg %></p>
 						</div>
 						<div class="col-12">
 							<label for="remember" class="form-label">Recuérdame</label>

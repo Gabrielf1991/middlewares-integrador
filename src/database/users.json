@@ -1,1 +1,35 @@
-[]
+[
+ {
+  "id": 0
+ },
+ {
+  "id": 1,
+  "email": "gabrielflores1991@gmail.com",
+  "password": "$2a$10$7QqXcAxOyr4BHjjKM/Dks.VRKhuiEmh/Wvsb3KgVtm2XNwe01AzRq",
+  "avatar": "1610065352674-padlet.jpg"
+ },
+ {
+  "id": 2,
+  "email": "gabriel@gabriel.com",
+  "password": "$2a$10$enbSr95rDrRrgHvP27E8ZOFRJrHKGuy3ecOityNnQ5Sy24ZcM5iT6",
+  "avatar": "1612790246224-37860393.jpg"
+ },
+ {
+  "id": 3,
+  "email": "gabriel@flores.com",
+  "password": "$2a$10$xFbEsxbfX1cYkTepLz88KONRqnF.aoPGoTUZhtQfAfM6yj6a2CDHS",
+  "avatar": "1613059590690-dsc00747.jpg"
+ },
+ {
+  "id": 4,
+  "email": "gabriel91@hotmail.com",
+  "password": "$2a$10$uHnUnCTNf7nmz3D8rrKGEOY7SnfUWuA.L6cBxMc7n0sz6Q/zJ/Qly",
+  "avatar": "1613486373594-casa-kame-de-dragon-ball_1280x768_xtrafondos.com.jpg"
+ },
+ {
+  "id": 5,
+  "email": "gabriel1991@gmail.com",
+  "password": "$2a$10$wJWzRMYNOcNalnUPAgPP7ukQsJFDYbU/mLts0X8rwZpR9m7kr7ENC",
+  "avatar": "1613487790621-Features3.1.jpg"
+ }
+]
